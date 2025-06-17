@@ -1,35 +1,3 @@
-// import React, { useState } from 'react';
-// import axios from 'axios';
-
-// const RegisterForm = () => {
-//   const [form, setForm] = useState({ name: '', linkedin_username: '', password: '' });
-
-//   const handleChange = e => setForm({ ...form, [e.target.name]: e.target.value });
-
-//   const handleSubmit = async e => {
-//     e.preventDefault();
-//     try {
-//       const res = await axios.post('https://outreach-sqy8.onrender.com/users/user', form);
-//       alert('User registered successfully!');
-//       console.log(res.data);
-//     } catch (err) {
-//       console.error(err);
-//       alert('Registration failed!');
-//     }
-//   };
-
-//   return (
-//     <form onSubmit={handleSubmit}>
-//       <h2>User Registration</h2>
-//       <input name="name" placeholder="Name" onChange={handleChange} required />
-//       <input name="linkedin_username" placeholder="LinkedIn Username" onChange={handleChange} required />
-//       <input name="password" type="password" placeholder="Password" onChange={handleChange} required />
-//       <button type="submit">Register</button>
-//     </form>
-//   );
-// };
-
-// export default RegisterForm;
 
 import React, { useState } from 'react';
 import axios from 'axios';
